@@ -54,14 +54,14 @@ CREATE TABLE account_client(
 CREATE TABLE deposit(
     id int AUTO_INCREMENT,
     dt date NOT null,
-    sum decimal(10,2) NOT null CHECK (sum >0.0),
+    sum decimal(10,2) NOT null CHECK (sum > 0.0),
     PRIMARY KEY (id)
 );
 
 CREATE TABLE draw(
     id int AUTO_INCREMENT,
     dt date NOT null,
-    sum decimal(10,2) NOT null CHECK (sum >0.0),
+    sum decimal(10,2) NOT null,
     PRIMARY KEY (id)
 );
 
