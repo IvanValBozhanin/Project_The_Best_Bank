@@ -61,7 +61,7 @@ CREATE TABLE deposit(
 CREATE TABLE draw(
     id int AUTO_INCREMENT,
     dt date NOT null,
-    sum decimal(10,2) NOT null,
+    sum decimal(10,2) NOT null CHECK (sum > 0.0),
     PRIMARY KEY (id)
 );
 
