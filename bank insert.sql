@@ -33,7 +33,7 @@ INSERT INTO `client_employee` (`client_id`, `employee_id`) VALUES
     
 INSERT INTO `account` (`id`, `balance`, `dt`) VALUES
 	(0, 1233, "2018-10-20"),
-    (0, 4235, "2019-11-08"),
+    (0, 2381, "2019-11-08"),
     (0, 54636,"2018-12-22"),
     (0, 25326,"2019-10-20"),
     (0, 2352, "2018-12-20"),
